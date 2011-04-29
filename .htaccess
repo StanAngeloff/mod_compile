@@ -1,0 +1,3 @@
+Compile On
+AddCompileCommand '/usr/local/bin/coffee -cp %s' .coffee
+AddCompileCommand '/usr/bin/sass %s'             .scss
